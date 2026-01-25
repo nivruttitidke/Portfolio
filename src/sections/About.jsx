@@ -76,7 +76,7 @@ export default function AboutSection() {
           </p>
 
           <p className="text-slate-400 mt-1">
-            3rd Year (Pursuing) | GPA: 7.3 
+            3rd Year (Pursuing) | CGPA: 7.3 
           </p>
 
           <p className="text-slate-400 mt-1">2023 — 2027</p>
@@ -106,8 +106,31 @@ export default function AboutSection() {
           <p className="text-slate-400 mt-1">Completed in 2023</p>
         </motion.div>
 
-      </div>
+        {/* CARD 2 */}
+        <motion.div
+          variants={revealDelayed(0.4)}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="bg-[#0A1424] border border-[#1A2338] rounded-2xl shadow-xl p-8"
+        >
+          <h4 className="text-xl font-semibold text-blue-300">
+            Secondary School Education (10th)
+          </h4>
 
+          <p className="flex items-center gap-2 mt-2 text-slate-300">
+            <GraduationCap size={18} />
+              Dindayal Vidyalaya  deulgaon raja, Buldana
+          </p>
+
+          <p className="text-slate-400 mt-1">
+            Maharashtra Board | Percentage: 93.40%
+          </p>
+
+          <p className="text-slate-400 mt-1">Completed in 2021</p>
+        </motion.div>
+
+      </div>
     </section>
   );
 }
