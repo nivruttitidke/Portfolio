@@ -10,7 +10,7 @@ import {
   Facebook,
   MessageCircle
 } from "lucide-react";
-import Profile from "../assets/profile.jpg";
+import Profile from "../assets/profile.jpeg";
 import { reveal, staggerParent } from "../utils/animations";
 
 export default function Hero() {
