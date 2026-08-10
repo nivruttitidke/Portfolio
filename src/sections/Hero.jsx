@@ -172,7 +172,7 @@ export default function Hero() {
               className="mt-8 flex justify-center md:justify-start"
             >
             <a
-             href="/Nivrutti_B_Tidke_Resume.pdf"
+             href="/Nivrutti_Tidke_8793748501.pdf"
              download
              className="px-6 py-3 bg-blue-600 hover:bg-blue-700 transition rounded-lg text-white font-medium shadow-lg text-sm sm:text-base"
             >
