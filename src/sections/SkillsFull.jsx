@@ -147,6 +147,9 @@ export default function SkillsFull() {
           <h3 className="text-lg font-bold text-green-400">Core Concepts</h3>
           <ul className="list-disc mt-3 ml-5 text-slate-300 space-y-1">
             <li>DSA</li>
+            <li>CN</li>
+            <li>DBMS</li>
+            <li>OS</li>
             
           </ul>
         </motion.div>
